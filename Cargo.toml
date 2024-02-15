@@ -1,0 +1,9 @@
+[package]
+name = "How-To-Access-A-Process"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winapi = { version = "0.3", features = ["um", "winuser", "processthreadsapi", "memoryapi", "winnt"] }
